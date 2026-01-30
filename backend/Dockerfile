@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run", "dev"]
+# Use the production start script inside the container
+CMD ["npm", "start"]
